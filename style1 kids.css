@@ -1,0 +1,23 @@
+.products{
+    display: flex;
+    justify-content:space-evenly;
+}
+.product2{
+    padding: 20px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+p{
+    color: orangered;
+
+}
+h6{
+    font-family:  Courier, monospace;
+    font-weight: 500;
+}
+h3{
+    font-family:'Courier New', Courier, monospace;
+    color: dimgray;
+}

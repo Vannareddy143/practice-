@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>flex-box</title>
+    <style>
+        .container{
+            display: flex;
+            height: 90vh;
+            border: 10px solid #333;
+            flex-direction:row;
+            flex-wrap:nowrap;
+            align-content: space-around;
+            column-gap: 1em;
+            row-gap: 1em;
+            
+        }
+        .box{
+          width: 150px;
+          height: 150px;
+          font-size: 7em;
+          text-align: center;
+          border-radius: 14px;
+        }
+        #box1{
+            background-color: brown;
+            align-self: center;
+            
+        }
+        #box2{
+            background-color: #333;
+            align-self: flex-end;
+        }
+        #box3{
+            background-color: #252525;
+            align-self: first baseline;
+        
+        }
+        #box4{
+            background-color: #257;
+            align-self: baseline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+    
+</body>
+</html>

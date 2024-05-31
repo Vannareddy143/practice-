@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <style>
+     table,form{
+         border: 1px solid rgb(168, 168, 183);
+         margin-top: 100px;
+         margin-bottom: 100px;
+         margin-right: 200px;
+         margin-left: 200px;
+         background-color: #bbd3e8;
+        margin: auto;
+         width: 60%;
+         padding: 10px;
+     }
+     h1{
+        margin-left: 220px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(13, 74, 164);
+     }
+
+    </style>
+    <body style="background-color: #d4eded;">
+        <table>
+           <form>
+           <h1>Register-form</h1>
+        <tr>
+           <td><label for="fname">Firstname:</label></td>
+           <td><input type="text" id="fname" placeholder="Enter firstname"></td>
+        </tr>
+        <tr><td><lable for="Middlename">Middlename:</lable></td>
+            <td><input type="text" id="Middlename"  placeholder="Enter Middlename"></td>
+        </tr>
+        <tr><td><lable for="lname" >Lastname:</lable></td>
+            <td><input type="text" id="lname" placeholder="Lastname"></td>
+        </tr>
+        <tr>
+            <td><label name="Gender" unchecked>Gender:</label></td>
+                <td><input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+                <input type="radio" name="Gender">Other</td>
+        </tr>
+        <tr>
+            <td>Date of Birth:</td>
+            <td><input type="date"></td>
+        </tr>
+           <tr> 
+            <td>Courses:</td>
+            <td><select>
+            <option>HTML&CSS</option>
+            <option>JAVASCRIPT</option>
+            <option>PYTHON</option>
+            <option>AWS</option>
+            <option>JAVA</option>
+            </select></td>
+        </tr>
+           <tr><td><label for="mnumber">MobileNumber</label></td>
+            <td><input type="phone"  placeholder="Enter phone number"></td>
+        </tr>
+           <tr><td>Address:</td>
+           <td><textarea rows="2" cols="2" name="Address">
+                Enter your Address
+            
+                </textarea></td></tr>
+        <tr>
+           <td>BloodGroup:</td>
+            <td><select placeholder="select bloodgroup">
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+            <option>O+</option>
+            <option>O-</option>
+            </select></td>
+        </tr>
+        <tr><td><label for="gmail">Email:</label></td>
+            <td><input type="text" id="Email" placeholder="Enter mail"></td>
+        </tr>
+        <tr><td><lable for="password">Password:</lable></td>
+            <td><input type="text" id="password"  placeholder="Enter password"></td>
+        </tr>
+        <tr><td><lable for="password" >Re-enterpassword:</lable></td>
+            <td><input type="text" id="password"  placeholder="Re-enterpassword"></td></tr>
+        <tr><td><input type="button" value="submit" style="background-color:blue; cursor: pointer;"></td></tr>
+       
+        </form>
+    </table>
+    
+    </body>
+</html>
